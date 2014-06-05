@@ -22,17 +22,6 @@ def get_ingredients(id)
   results.to_a
 end
 
-class Ingredient
-  def initialize(ingredient)
-    @name = ingredient["name"]
-  end
-
-  def name
-    @name
-  end
-
-end
-
 class Recipe
   def initialize(recipe)
     @id = recipe["id"]
